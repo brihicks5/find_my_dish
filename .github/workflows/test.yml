@@ -5,7 +5,8 @@ on:
     branches: [main]
 
 jobs:
-  test:
+  backend-pytest:
+    name: Backend Tests (pytest)
     runs-on: ubuntu-latest
 
     services:
