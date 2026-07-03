@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app import config
 from app.routes.auth import router as auth_router
 
-app = FastAPI(title="Find My Dish")
+app = FastAPI(title="Find My Dish", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,
