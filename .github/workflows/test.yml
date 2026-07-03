@@ -6,7 +6,7 @@ on:
 
 jobs:
   backend-pytest:
-    name: Backend Tests (pytest)
+    name: Backend Tests
     runs-on: ubuntu-latest
 
     services:
